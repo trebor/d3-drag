@@ -5,7 +5,11 @@ export function nopropagation() {
 }
 
 export default function() {
-  console.log('here!');
+  console.log('mark', 1);
+  if (event.cancelable) {
+    console.log('mark', 2);
+    event.preventDefault();
+  }
   event.preventDefault();
   event.stopImmediatePropagation();
 }
