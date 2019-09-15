@@ -1,5 +1,5 @@
 {
-  "name": "d3-drag",
+  "name": "trebor-d3-drag",
   "version": "1.2.4",
   "description": "Drag and drop SVG, HTML or Canvas using mouse or touch input.",
   "keywords": [
@@ -12,16 +12,16 @@
   "homepage": "https://d3js.org/d3-drag/",
   "license": "BSD-3-Clause",
   "author": {
-    "name": "Mike Bostock",
-    "url": "http://bost.ocks.org/mike"
+    "name": "Robert Harris",
+    "url": "http://trebor.org"
   },
-  "main": "dist/d3-drag.js",
-  "unpkg": "dist/d3-drag.min.js",
-  "jsdelivr": "dist/d3-drag.min.js",
+  "main": "dist/trebor-d3-drag.js",
+  "unpkg": "dist/trebor-d3-drag.min.js",
+  "jsdelivr": "dist/trebor-d3-drag.min.js",
   "module": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/d3/d3-drag.git"
+    "url": "https://github.com/d3/trebor-d3-drag.git"
   },
   "files": [
     "dist/**/*.js",
@@ -40,7 +40,7 @@
   "devDependencies": {
     "eslint": "6",
     "rollup": "1",
-    "rollup-plugin-terser": "5",
+    "rollup-plugin-terser": "^5.1.2",
     "tape": "4"
   }
 }
