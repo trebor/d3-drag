@@ -5,6 +5,7 @@ export function nopropagation() {
 }
 
 export default function() {
+  console.log('here!');
   event.preventDefault();
   event.stopImmediatePropagation();
 }
